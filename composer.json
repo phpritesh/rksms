@@ -1,0 +1,29 @@
+{
+    "name": "phpritesh/rksms",
+    "description": "To send sms from diffrent channel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ritesh Singh",
+            "email": "phpritesh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": ">=6.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpritesh\\Rksms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phpritesh\\Rksms\\SmsServiceProvider"
+            ]
+        }
+    }
+}
