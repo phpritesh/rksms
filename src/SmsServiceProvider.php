@@ -4,7 +4,7 @@ namespace Phpritesh\Rksms;
 
 use Illuminate\Support\ServiceProvider;
 
-class SmsServiceProviders extends ServiceProvider
+class SmsServiceProvider extends ServiceProvider
 {
 
     public function boot()

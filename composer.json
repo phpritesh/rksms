@@ -1,5 +1,6 @@
 {
     "name": "phpritesh/rksms",
+	"homepage": "https://github.com/phpritesh/rksms",
     "description": "To send sms from diffrent channel",
     "type": "library",
     "license": "MIT",
